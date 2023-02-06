@@ -1,0 +1,21 @@
+.container-fluid {
+    background-color: $color-6;
+    padding: 12px 15px;
+}
+
+.header {
+    &__template {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    &__weblow {
+        @include text (normal, 400, 14px, 20px, $color-1);
+    }
+
+    &__see  a {
+        @include text (normal, 400, 14px, 18px, $color-2);
+    }
+}

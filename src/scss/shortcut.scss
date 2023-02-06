@@ -1,0 +1,45 @@
+.shortcut {
+    padding: 96px 0;
+    background-color: $color-8;
+
+   
+
+    &__icon {
+       
+        img {
+            width: 100%;
+            max-width: 56px;
+            height: 41px;
+            
+        }
+        margin-bottom: 24px
+
+        
+      }
+
+    &__text {
+        @include text (italic, 400, 25px, 32px, $color-10);
+        span {
+            color: $color-11;
+
+        }
+
+        margin-bottom: 25px;
+    }
+
+    &__photo {
+        img {
+            width: 100%;
+            max-width: 100px;
+            height: 100px;
+           
+
+        }
+        margin-bottom: 8px;
+    }
+
+    &__name {
+        @include text (normal, 400, 17px, 27px, $color-10);
+    }
+
+}

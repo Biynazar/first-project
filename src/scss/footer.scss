@@ -1,0 +1,67 @@
+.footer {
+    padding: 64px 0;
+
+   
+    
+    &__footpicture {
+        margin-bottom: 24px;
+
+    }
+
+    &__landing {
+        @include text (normal, 400, 18px, 27px, $color-1);
+        width: 100%;
+        max-width: 395px;
+        height: 54px;
+        margin-bottom: 13px;
+    }
+
+    &__list {
+        column-gap: 5px;
+    }
+
+    &__build {
+        @include text (normal, 400, 14px, 20px, $color-1);
+    }
+
+    &__power {
+        @include text (normal, 400, 14px, 20px, $color-1);
+        
+    }
+
+    &__coursely {
+        width: 70%;
+    }
+
+   
+
+    &__site, &__admin {
+        width: 15%;
+    }
+
+    &__title {
+        @include text (normal, 400, 14px, 21px, $color-9);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    &__links {
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        max-width: 120px;
+       
+        
+    }
+
+    &__item {
+        margin-bottom: 9px;
+        a {
+            @include text (normal, 400, 15px, 22px, $color-1);
+            
+        }
+    }
+    
+
+}

@@ -1,0 +1,30 @@
+.teachers{
+    padding: 96px 0;
+
+    &__block {
+        column-gap: 93px;
+    }
+
+    &__picture {
+        img {
+            width: 100%;
+            max-width: 498px;
+            height: 520px;
+
+        }
+    }
+
+    &__studies{
+        margin: auto 5px;
+    }
+
+    &__title {
+        @include text (normal, 700, 38px, 46px, $color-1);
+        margin-bottom: 18px;
+    }
+
+    &__subtitle {
+        @include text (normal, 400, 18px, 27px, $color-1);
+    }
+
+}

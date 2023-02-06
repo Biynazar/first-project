@@ -1,0 +1,32 @@
+.curriculum {
+
+    
+
+    padding: 96px 0;
+    
+    &__accordion {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    &__course {
+        margin-bottom: 64px;
+    }
+    row-gap: 64px;
+
+    .accordion-button:not(.collapsed) {
+        
+        background-color: $color-6;
+
+    }
+
+    .accordion-button {
+        background-color: $color-6;
+    }
+
+    &__title {
+        @include text (normal, 700, 38px, 46px, $color-1);
+    }
+
+
+}

@@ -1,0 +1,29 @@
+.skills{
+    padding: 0 0 96px;
+
+    &__block {
+        column-gap: 112px;
+    }
+
+    &__editing{
+        margin: 123px 5px;
+    }
+
+    &__title {
+        @include text (normal, 700, 38px, 46px, $color-1);
+        margin-bottom: 18px;
+    }
+
+    &__subtitle {
+        @include text (normal, 400, 18px, 27px, $color-1);
+    }
+
+    &__picture {
+        img {
+            width: 100%;
+            max-width: 498px;
+            height: 450px;
+
+        }
+    }
+}

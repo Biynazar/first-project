@@ -1,0 +1,107 @@
+.praise {
+    padding: 96px 0;
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        max-width: 59px;
+        height: 59px;
+        background-color: $color-5;
+        top: 924px;
+        right: 144px;
+        
+
+
+    }
+
+    &__title {
+        @include text (normal, 700, 38px, 46px, $color-1);
+        margin-bottom: 48px;
+
+    }
+
+    &__stars {
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        margin-bottom: 16px;
+        @include text (normal, 400, 15px, 24px, $color-1);
+
+    }
+
+    &__person {
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 12px;
+    }
+
+    &__picture img {
+        width: 100%;
+        max-width: 48px;
+        height: 48px;
+    }
+
+    &__name {
+        @include text (normal, 400, 15px, 24px, $color-1);
+    }
+
+    &__box-first {
+        width: 100%;
+        max-width: 355px;
+        height: 340px;
+        background-color: $color-6;
+        padding: 32px;
+        margin-bottom: 32px;
+    }
+
+    &__box-second {
+        width: 100%;
+        max-width: 355px;
+        height: 292px;
+        background-color: $color-6;
+        padding: 32px;
+        margin-bottom: 32px;
+    }
+
+    &__box-third {
+        width: 100%;
+        max-width: 355px;
+        height: 268px;
+        background-color: $color-6;
+        padding: 32px;
+        margin-bottom: 32px;
+    }
+
+    &__box-fourth {
+        width: 100%;
+        max-width: 355px;
+        height: 340px;
+        background-color: $color-6;
+        padding: 32px;
+        
+    }
+
+    &__box-fifth {
+        width: 100%;
+        max-width: 355px;
+        height: 292px;
+        background-color: $color-6;
+        padding: 32px;
+        margin-bottom: 32px;
+    }
+
+    &__box-sixth {
+        width: 100%;
+        max-width: 355px;
+        height: 268px;
+        background-color: $color-6;
+        padding: 32px;
+        
+    }
+
+
+}

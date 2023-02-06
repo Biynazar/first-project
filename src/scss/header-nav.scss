@@ -1,0 +1,65 @@
+.header {
+    background-color: $color-12;
+
+    &__menu {
+        padding: 19.5px 0;
+  
+    }
+
+    &__nav {
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+            
+
+    .button {
+               
+    .btn-link {
+     @include text (normal, 700, 15px, 24px, $color-10);
+     text-decoration: none;
+    }
+
+    &:hover, .btn-link:hover {
+    transition: all .5s ease-in;
+    background-color: $color-2;
+    border-radius: 5px;
+    color: $color-1;
+    }
+  
+    }
+    
+
+
+
+    }
+
+    &__link {
+        @include text (normal, 400, 15px, 22px, $color-3);
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+    }
+
+    // &__nav {
+    // &_link{
+    // @include text (normal, 400, 15px, 22px, $color-3);
+    // text-align: center;
+    // letter-spacing: 0.6px;
+    // text-transform: uppercase;
+    // 
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // }
+}

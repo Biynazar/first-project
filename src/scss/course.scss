@@ -1,0 +1,46 @@
+.course {
+
+    padding: 96px 0;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        max-width: 59px;
+        height: 59px;
+        background-color: $color-7;
+        top: 0;
+        right: 144px;
+
+    }
+
+    &__top {
+        &_title {
+            @include text (normal, 700, 38px, 46px, $color-1);
+            margin-bottom: 64px;
+        }
+    }
+
+    &__info {
+        &_icon {
+            img {
+                width: 100%;
+                max-width: 34px;
+                height: 34px;
+            }
+        }
+
+        &_item {
+            @include text (normal, 400, 15px, 24px, $color-1);
+        }
+    }
+
+    &__info:nth-child(2) {
+        margin-bottom: 48px;
+    }
+
+
+
+    
+}

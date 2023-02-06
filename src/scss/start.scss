@@ -1,0 +1,68 @@
+.start {
+   padding: 122px 0;
+   background-color: $color-11;
+    position: relative;
+
+   &::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    max-width: 59px;
+    height: 59px;
+    background-color: $color-7;
+    top: 961px;
+    left: 144px; 
+
+   }
+
+   &__title {
+    @include text (normal, 400, 38px, 45px, $color-10);
+    margin-bottom: 64px;
+   }
+
+   &__cards {
+    column-gap: 40px;
+   }
+
+   &__image {
+    margin-top: 48px;
+    margin-bottom: 11px;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+   }
+
+   &__subtitle {
+    @include text (normal, 400, 38px, 45px, $color-4);
+    margin-bottom: 16px;
+   }
+
+   &__price {
+    @include text (normal, 400, 31px, 38px, $color-5);
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+    span {
+        @include text (normal, 400, 20px, 22px, $color-3);
+    }
+   }
+
+   &__text {
+    
+    margin: 0 40px 13px;
+    @include text (normal, 400, 17px, 27px, $color-4);
+   }
+
+   &__btn {
+    width: 100%;
+    max-width: 208px;
+    height: 43px;
+    margin-bottom: 56px;
+   }
+
+   &__list {
+    list-style-type: none;
+    list-style-image: url('/src/images/start/birdie.svg');
+    margin: auto 48px;
+}
+
+}

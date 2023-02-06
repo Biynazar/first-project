@@ -1,0 +1,87 @@
+@import url('../libs/bootstrap/bootstrapCSS/bootstrap.min.css');
+@import url('../libs/bootstrap/bootstrapCSS/bootstrap-grid.min.css');
+@import url('../libs/fontawesome/fontawesome/fontawesomeCSS/all.min.css');
+@import url('../fonts/Inter/stylesheet.css');
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    
+
+   
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+@mixin text ($fst, $fw, $fs, $lh, $cl){
+    font-style: $fst;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $cl;
+}
+
+$color-1: #0F0F0F;
+$color-2: #D87775;
+$color-3: #757575;
+$color-4: #464646;
+$color-5: #017CFF;
+$color-6: #EDEDED;
+$color-7: #87CDFF;
+$color-8: #194677;
+$color-9: #B1B1B1;
+$color-10: #FFFFFF;
+$color-11: #E48D8B;
+$color-12: #FBFBFB;
+
+.button{
+    border-radius: 0px;
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    transition: all .5s ease-in;
+    text-align: center;
+    background-color: $color-5;
+    cursor: pointer;
+    
+
+    
+}
+
+
+@import 'header-template';
+@import 'header-nav';
+@import 'podcast';
+@import 'gears';
+@import 'teachers';
+@import 'skills';
+@import 'included';
+@import 'curriculum';
+@import 'course';
+@import 'shortcut';
+@import 'questions';
+@import 'start';
+@import 'praise';
+@import 'footer';
+@import 'form';
+
+
+
+
+
+
+
+
+
+
+@import 'media';
+

@@ -1,0 +1,2329 @@
+@media (max-width: 1440px) {
+    // min-width 1321px
+
+}
+
+@media (max-width: 1320px) {
+    // min-width 1201px
+
+    .praise::before {
+
+        right: 0px;
+    }
+
+
+
+
+}
+
+@media (max-width: 1200px) {
+    // min-width 1081px
+
+    .podcast {
+        padding: 100px 0;
+    }
+
+    .included {
+        &__block {
+            column-gap: 60px;
+        }
+    }
+
+
+
+
+}
+
+@media (max-width: 1080px) {
+    // min-width 993px
+
+    .podcast {
+        padding: 61px 0;
+
+        &__info {
+            column-gap: 50px;
+        }
+
+        &__title {
+            font-size: 42px;
+            line-height: 50px;
+            margin-top: 30px;
+            margin-bottom: 14px;
+
+        }
+
+        &__price {
+            font-size: 28px;
+            line-height: 30px;
+            margin-bottom: 22px;
+
+        }
+
+        &__photo {
+
+            &_play {
+
+                margin: 180px auto;
+
+            }
+
+
+        }
+    }
+
+    .gears {
+        padding: 48px 0;
+
+        &__info {
+            column-gap: 20px;
+        }
+
+        &__title {
+            font-size: 24px;
+        }
+
+    }
+
+    .teachers {
+        padding: 48px 0;
+
+        &__picture img {
+            height: 434px;
+        }
+    }
+
+    .skills {
+        padding: 0 0 48px;
+
+        &__editing {
+            margin: 50px 5px;
+        }
+
+        &__picture img {
+            height: 388px;
+        }
+
+
+    }
+
+    .included {
+
+        padding: 48px 0;
+
+        &::after {
+
+            top: 270px;
+            right: 0px;
+        }
+
+        &__block {
+            column-gap: 30px;
+        }
+    }
+
+    .curriculum {
+        padding: 48px 0;
+
+        &__course {
+            margin-bottom: 32px;
+        }
+
+    }
+
+    .course {
+        padding: 48px 0;
+
+        &::before {
+
+            right: 0px;
+        }
+
+        &__top {
+            &_title {
+                margin-bottom: 36px;
+            }
+        }
+
+        &__info:nth-child(2) {
+            margin-bottom: 30px;
+        }
+
+
+
+    }
+
+    .shortcut {
+        padding: 48px 0;
+
+    }
+
+    .questions {
+        padding: 61px 0;
+
+
+    }
+
+    .start {
+
+        padding: 61px 0;
+
+        &::before {
+            top: 863px;
+            left: 0px;
+        }
+    }
+
+    .praise {
+        padding: 48px 0;
+
+        &::before {
+
+            top: 829px;
+
+        }
+
+        &__box-third {
+                    
+            height: 246px;
+        }
+
+        &__box-sixth {
+                    
+            height: 246px;
+                     
+        }
+    }
+
+    .footer {
+        padding: 32px 0;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 992px) {
+    // min-width 873px
+
+  
+  
+
+    .podcast {
+
+        padding: 51px 0;
+
+        &__title {
+            font-size: 38px;
+            line-height: 40px;
+        }
+
+        &__photo {
+
+            &_play {
+
+                margin: 150px auto;
+
+            }
+
+        }
+
+
+    }
+
+    .gears {
+        padding: 38px 0;
+
+        &__icon {
+            &_vector {
+                width: 26px;
+                height: 26px;
+            }
+        }
+
+        &__title {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        &__subtitle {
+            font-size: 17px;
+            line-height: 22px;
+        }
+
+
+
+    }
+
+    .teachers {
+        padding: 38px 0;
+
+        &__block {
+            column-gap: 0px;
+        }
+
+        &__title {
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+
+        }
+
+        &__subtitle {
+            line-height: 24px;
+        }
+
+        &__picture {
+            img {
+
+                height: 420px;
+
+            }
+        }
+    }
+
+    .skills {
+        padding: 0 0 38px;
+
+        &__block {
+            column-gap: 0px;
+        }
+
+        &__editing {
+            margin: 30px 5px;
+        }
+
+        &__picture {
+            img {
+
+                height: 380px;
+
+
+            }
+        }
+    }
+
+    .included {
+
+        padding: 38px 0;
+
+        &::after {
+            top: 0px;
+
+        }
+
+        &__block {
+            column-gap: 10px;
+        }
+
+        &__num {
+
+            font-size: 78px;
+
+        }
+    }
+
+    .curriculum {
+        padding: 38px 0;
+
+        &__course {
+            margin-bottom: 16px;
+        }
+
+        &__title {
+            font-size: 34px;
+        }
+
+    }
+
+    .course {
+        padding: 38px 0;
+
+        &__top {
+            &_title {
+                font-size: 36px;
+                margin-bottom: 32px;
+            }
+        }
+
+        &__info:nth-child(2) {
+            margin-bottom: 28px;
+        }
+
+        &__info {
+            &_icon img {
+
+                max-width: 30px;
+                height: 30px;
+            }
+
+            &_item {
+                line-height: 20px;
+            }
+        }
+
+
+
+
+
+    }
+
+    .shortcut {
+        padding: 38px 0;
+
+    }
+
+    .questions {
+        padding: 51px 0;
+
+
+    }
+
+    .start {
+
+        padding: 51px 0;
+
+        &::before {
+            top: 942px;
+            left: 0px;
+        }
+    }
+
+    .praise {
+        padding: 38px 0;
+
+        &::before {
+
+            top: 808px;
+
+        }
+
+        &__box-first,
+        &__box-second,
+        &__box-third,
+        &__box-fourth,
+        &__box-fifth,
+        &__box-sixth {
+            padding: 16px;
+        }
+    }
+
+    .footer {
+        padding: 22px 0;
+    }
+
+}
+
+
+
+
+@media (max-width: 872px) {
+    // min-width 769px
+
+    // .header {
+    // &__nav .button {
+    // margin: 0 auto;
+    //    }
+    // }
+
+    .podcast {
+
+        padding: 41px 0;
+
+
+
+        &__title {
+            font-size: 33px;
+            line-height: 36px;
+        }
+
+        &__text {
+            line-height: 24px;
+
+        }
+
+        &__price {
+            font-size: 28px;
+            line-height: 22px;
+            margin-bottom: 16px;
+        }
+
+        &__photo {
+
+            &_play {
+
+                margin: 130px auto;
+
+            }
+
+        }
+    }
+
+    .gears {
+        padding: 28px 0;
+
+        &__info {
+            column-gap: 4px;
+        }
+
+        &__title {
+            font-size: 19px;
+            line-height: 26px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+    }
+
+    .teachers {
+        padding: 28px 0;
+
+        &__title {
+            font-size: 27px;
+
+        }
+
+        &__picture {
+            img {
+
+                height: 320px;
+
+            }
+        }
+    }
+
+    .skills {
+
+        padding: 0 0 28px;
+
+        &__title {
+            font-size: 27px;
+            line-height: 28px;
+
+        }
+
+        &__picture {
+            img {
+
+                height: 330px;
+
+            }
+        }
+    }
+
+    .included {
+
+        padding: 28px 0;
+
+        &__block {
+            column-gap: 0px;
+
+        }
+
+        &__name {
+            &_what {
+
+                margin-bottom: 10px;
+            }
+        }
+
+
+
+        &__num {
+
+            font-size: 48px;
+            margin-bottom: 10px;
+
+        }
+
+        &__title {
+            font-size: 16px;
+        }
+    }
+
+    .curriculum {
+        padding: 28px 0;
+
+
+
+        &__title {
+            font-size: 30px;
+        }
+
+    }
+
+    .course {
+        padding: 28px 0;
+
+        &__top {
+            &_title {
+                font-size: 34px;
+                margin-bottom: 30px;
+            }
+        }
+
+        &__info:nth-child(2) {
+            margin-bottom: 24px;
+        }
+
+
+
+    }
+
+    .shortcut {
+        padding: 28px 0;
+
+        &__icon img {
+            height: 34px;
+        }
+
+        &__text {
+
+            font-size: 20px;
+            line-height: 24px;
+
+        }
+
+        &__photo img {
+
+            height: 80px;
+        }
+
+        &__name {
+            font-size: 16px;
+            line-height: 16px;
+
+        }
+    }
+
+    .questions {
+        padding: 41px 0;
+
+        &__title {
+
+            font-size: 30px;
+            line-height: 30px;
+
+        }
+
+
+    }
+
+    .start {
+
+        padding: 41px 0;
+
+        &::before {
+            top: 664px;
+            left: 0px;
+        }
+
+        &__title {
+
+            font-size: 36px;
+            line-height: 20px;
+
+        }
+
+        &__image {
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        &__subtitle {
+
+            font-size: 36px;
+            line-height: 26px;
+            margin-bottom: 10px;
+        }
+
+        &__price {
+
+            font-size: 28px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            margin: 0 0 13px;
+            font-size: 16px;
+            line-height: 20px;
+
+        }
+
+        &__btn {
+            margin-bottom: 30px;
+        }
+
+        &__list {
+            margin: auto 0;
+
+        }
+    }
+
+    .praise {
+        padding: 28px 0;
+
+        &::before {
+
+            top: 680px;
+
+        }
+
+
+
+        &__title {
+
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        &__stars {
+            margin-bottom: 10px;
+        }
+
+        &__text {
+
+            line-height: 20px;
+
+        }
+
+        &__box-first {
+            height: 328px;
+               
+        }
+
+        &__box-second {
+            height: 288px;
+         
+        }
+
+        &__box-fourth {
+            height: 328px;
+                   
+        }
+
+        &__box-fifth {
+            height: 286px;
+        }
+    }
+
+    .footer {
+        padding: 12px 0;
+
+        &__footpicture {
+            margin-bottom: 12px;
+        }
+
+        &__title {
+            margin-bottom: 8px;
+        }
+
+        &__item {
+            margin-bottom: 4px;
+        }
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    // min-width 649px
+
+    .header {
+        &__nav {
+            display: none;
+        }
+
+        &__nav.active {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            row-gap: 40px;
+            background-color: $color-7;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 1;
+
+
+
+
+
+        }
+    }
+
+    .burger {
+        width: 40px;
+        height: 35px;
+        background-color: $color-5;
+        border-radius: 5px;
+        position: fixed;
+        top: 68px;
+        right: 15px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &__line {
+            width: 100%;
+            height: 3px;
+            background-color: $color-2;
+            display: inline-block;
+            position: relative;
+            border-radius: 5px;
+
+
+            &::before {
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 3px;
+                background-color: $color-2;
+                top: -8px;
+                border-radius: 5px;
+
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 3px;
+                background-color: $color-2;
+                top: 8px;
+                border-radius: 5px;
+
+            }
+
+
+
+
+
+        }
+
+    }
+
+    .burger.active {
+        .burger__line {
+            height: 0;
+
+            &::before {
+                transform: rotate(45deg);
+                top: 0;
+                left: 0;
+            }
+
+            &::after {
+                transform: rotate(-45deg);
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+
+    .podcast {
+
+        padding: 31px 0;
+
+        &__info {
+            column-gap: 30px;
+        }
+
+        &__title {
+            font-size: 28px;
+            line-height: 32px;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+
+        &__price {
+            font-size: 22px;
+
+            span {
+                font-size: 18px;
+            }
+        }
+
+        &__btn {
+            .button {
+                padding: 4px 10px;
+
+                &_red {
+                    font-size: 14px;
+                }
+
+                &_gray {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        &__photo {
+
+            &_play {
+
+                margin: 120px auto;
+
+            }
+
+        }
+    }
+
+    .gears {
+        padding: 28px 0;
+
+        &__info {
+            column-gap: 0px;
+        }
+
+        &__title {
+            font-size: 15px;
+            line-height: 20px;
+
+        }
+
+        &__subtitle {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+
+    .teachers {
+        padding: 18px 0;
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+
+        &__picture {
+            img {
+
+                height: 300px;
+
+            }
+        }
+    }
+
+    .skills {
+
+        padding: 0 0 18px;
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__editing {
+            margin: 13px 5px;
+        }
+
+        &__picture {
+            img {
+
+                height: 278px;
+
+            }
+        }
+
+    }
+
+    .included {
+
+        padding: 18px 0;
+
+        &::before {
+
+            max-width: 40px;
+            height: 40px;
+
+        }
+
+        &::after {
+
+            max-width: 40px;
+            height: 40px;
+
+        }
+
+
+
+
+        &__name {
+            &_what {
+                font-size: 20px;
+                line-height: 10px;
+                margin-bottom: 10px;
+            }
+        }
+
+
+
+        &__num {
+
+            font-size: 20px;
+            margin-bottom: 0px;
+
+        }
+
+        &__title {
+            font-size: 13px;
+        }
+    }
+
+    .curriculum {
+        padding: 18px 0;
+
+
+
+        &__title {
+            font-size: 26px;
+        }
+
+        &__accordion {
+           
+            width: 100%;
+        }
+
+    }
+
+    .course {
+        padding: 18px 0;
+
+        &::before {
+
+            max-width: 40px;
+            height: 40px;
+
+        }
+
+        &__top {
+            &_title {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__info:nth-child(2) {
+            margin-bottom: 14px;
+        }
+
+        &__info {
+            &_icon img {
+
+                max-width: 24px;
+                height: 24px;
+            }
+
+            &_item {
+                line-height: 18px;
+            }
+        }
+
+    }
+
+    .shortcut {
+        padding: 18px 0;
+
+        &__icon img {
+            height: 24px;
+        }
+
+        &__text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__photo img {
+            height: 70px;
+        }
+
+    }
+
+    .questions {
+        padding: 31px 0;
+
+        &::before {
+            max-width: 40px;
+            height: 40px;
+
+        }
+
+        &__title {
+
+            font-size: 28px;
+            line-height: 28px;
+
+        }
+
+        &__accordion{
+            width: 86%;
+        }
+
+
+    }
+
+    .start {
+        padding: 31px 0;
+
+        &::before {
+            top: 660px;
+            max-width: 40px;
+            height: 40px;
+
+        }
+
+
+
+        &__cards {
+            column-gap: 20px;
+        }
+
+        &__block {
+            margin-bottom: -40px;
+
+        }
+
+        &__image {
+            max-width: 30px;
+            height: 30px;
+        }
+
+        &__subtitle {
+            font-size: 26px;
+            line-height: 18px;
+
+        }
+
+        &__price {
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        &__title {
+            font-size: 30px;
+            line-height: 26px;
+        }
+
+        &__text {
+            line-height: 16px;
+        }
+
+        &__btn {
+            margin-bottom: 16px;
+        }
+    }
+
+    .praise {
+        padding: 18px 0;
+
+        &::before {
+            top: 682px;
+            max-width: 40px;
+            height: 40px;
+        }
+
+        &__title {
+            font-size: 30px;
+
+        }
+
+        &__box-first,
+        &__box-second,
+        &__box-third,
+        &__box-fourth,
+        &__box-fifth,
+        &__box-sixth {
+            padding: 8px;
+        }
+
+        &__text {
+            font-size: 14px;
+
+        }
+
+        &__name {
+            font-size: 14px;
+        }
+
+        &__box-first {
+            height: 336px;
+        }
+
+        &__box-second {
+            height: 276px;
+        }
+
+        &__box-third {
+            height: 236px;
+        }
+
+        &__box-fourth {
+            height: 334px;
+        }
+
+        &__box-fifth {
+            height: 278px;
+        }
+
+        &__box-sixth {
+            height: 234px;
+        }
+
+
+    }
+
+    .footer {
+        padding: 2px 0;
+
+
+
+        &__coursely {
+            width: 64%;
+        }
+
+        &__landing {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 8px;
+        }
+
+        &__site,
+        &__admin {
+            width: 18%;
+        }
+
+        &__title {
+            line-height: 14px;
+        }
+
+
+    }
+}
+
+
+@media (max-width: 648px) {
+    // min-width 577px
+
+    .header {
+        &__nav .button {
+            margin: 0 auto;
+        }
+    }
+
+    .podcast {
+
+        padding: 30px 0;
+
+        &__info {
+            column-gap: 30px;
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 24px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        &__photo {
+            &_play {
+                margin: 90px auto;
+            }
+        }
+
+
+    }
+
+    .gears {
+        padding: 18px 0;
+
+        &__title {
+            font-size: 13px;
+
+        }
+
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+
+    .teachers {
+        padding: 8px 0;
+
+        &__title {
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        &__subtitle {
+            font-size: 17px;
+            line-height: 20px;
+        }
+
+        &__picture {
+            img {
+
+                height: 260px;
+
+            }
+        }
+    }
+
+    .skills {
+        padding: 0 0 8px;
+
+        &__title {
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        &__subtitle {
+            font-size: 17px;
+            line-height: 20px;
+        }
+
+        &__picture {
+            img {
+
+                height: 243px;
+
+            }
+        }
+    }
+
+    .included {
+
+        padding: 8px 0;
+
+        &__title {
+            font-size: 10px;
+        }
+    }
+
+    .curriculum {
+        padding: 8px 0;
+
+
+
+        &__title {
+            font-size: 22px;
+        }
+
+    }
+
+    .course {
+        padding: 8px 0;
+
+        &::before {
+
+            top: 8px;
+
+        }
+
+        &__top {
+            &_title {
+                font-size: 22px;
+                margin-bottom: 14px;
+            }
+        }
+
+
+
+        &_item {
+            font-size: 16px;
+
+        }
+
+
+    }
+
+    .shortcut {
+        padding: 8px 0;
+
+
+
+        &__text {
+            font-size: 16px;
+        }
+
+
+
+    }
+
+    .questions {
+        padding: 21px 0;
+
+
+
+    }
+
+    .start {
+
+        padding: 21px 0;
+
+        &::before {
+            top: 638px;
+        }
+
+        &__card {
+            &_small, &_big {
+                width: 46%;
+            }
+            
+        }
+    }
+
+    .praise {
+        padding: 8px 0;
+
+        &::before {
+            top: 1274px;
+        }
+
+        &__info {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        &__stars {
+
+            text-align: center;
+        }
+
+        &__text {
+
+            text-align: center;
+        }
+
+        &__person {
+            justify-content: center;
+
+        }
+
+        &__box-first {
+            max-width: 523px;
+            height: 200px;
+
+        }
+
+        &__box-second {
+            max-width: 523px;
+            height: 182px;
+        }
+
+        &__box-third {
+
+            max-width: 523px;
+            height: 160px;
+
+        }
+
+        &__box-fourth {
+            max-width: 523px;
+            height: 198px;
+            margin-bottom: 32px;
+        }
+
+        &__box-fifth {
+
+            max-width: 523px;
+            height: 180px;
+
+        }
+
+        &__box-sixth {
+            max-width: 523px;
+            height: 160px;
+            margin-bottom: 32px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 576px) {
+    // min-width 457px
+
+    .header {
+        &__nav .button {
+            margin: 0 auto;
+        }
+    }
+
+
+    .podcast {
+
+        &__info {
+            column-gap: 20px;
+        }
+
+        &__title {
+            font-size: 18px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 6px;
+        }
+
+        &__price {
+            font-size: 16px;
+            margin-bottom: 4px;
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+        &__btn {
+
+            flex-direction: column;
+            row-gap: 5px;
+
+            .button {
+                padding: 2px 2px;
+
+                &_red {
+                    font-size: 14px;
+                }
+
+                &_gray {
+                    font-size: 14px;
+                }
+
+            }
+        }
+
+        &__photo {
+            &_play {
+                margin: 98px auto;
+            }
+        }
+
+
+
+    }
+
+    .gears {
+        padding: 8px 0;
+
+        &__info {
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        &__icon {
+            text-align: center;
+        }
+
+        &__title {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+
+    .teachers {
+        &__title {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__picture {
+            img {
+
+                height: 200px;
+
+            }
+        }
+    }
+
+    .skills {
+
+        &__title {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__picture {
+            img {
+
+                height: 186px;
+
+            }
+        }
+
+    }
+
+    .included {
+
+
+
+        &__title {
+            line-height: 10px;
+        }
+    }
+
+    .curriculum {
+
+        &__accordion {
+            margin: 0;
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 17px;
+        }
+
+
+
+
+    }
+
+    .course {
+        &__top {
+            &_title {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+        }
+
+        &__info {
+            flex-direction: column;
+
+            &_icon {
+                text-align: center;
+            }
+
+            &_item {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+
+
+    }
+
+    .shortcut {
+        padding: 0px 0px;
+
+
+
+    }
+
+    .questions {
+        padding: 11px 0;
+
+        &__accordion {
+            width: 100%;
+
+        }
+
+        &__title {
+            font-size: 26px;
+            line-height: 14px;
+            margin-top: 30px;
+        }
+
+
+
+    }
+
+    .start {
+        padding: 11px 0;
+
+        &__cards {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+
+        .card {
+            width: 426px;
+        }
+
+        &::before {
+            top: 0;
+            width: 40px;
+            height: 40px;
+
+        }
+
+    }
+
+    .praise {
+        padding: 0px;
+
+        &::before {
+            top: 1352px;
+        }
+
+        &__title {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        &__box-first {
+            height: 216px;
+        }
+
+        &__box-second {
+            height: 198px;
+        }
+
+        &__box-third {
+            height: 176px;
+        }
+
+        &__box-fourth {
+            height: 214px;
+        }
+
+        &__box-fifth {
+            height: 196px;
+        }
+
+        &__box-sixth {
+            height: 176px;
+        }
+
+
+    }
+
+    .footer {
+        &__info {
+            flex-direction: column;
+        }
+
+        &__coursely {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__landing {
+            line-height: 16px;
+            margin-bottom: 0px;
+        }
+
+        &__list {
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+
+
+        &__site,
+        &__admin {
+            width: 100%;
+            text-align: center;
+
+        }
+
+        &__site {
+            margin-bottom: 20px;
+        }
+
+        &__links {
+            display: flex;
+            justify-content: center;
+            column-gap: 36px;
+            margin: 0 auto;
+        }
+
+        &__item a {
+
+            font-size: 14px;
+
+        }
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 456px) {
+    // min-width 427px
+
+    .header {
+        &__template {
+            flex-direction: column;
+        }
+
+
+        &__nav .button {
+            margin: 0 auto;
+        }
+    }
+
+    .podcast {
+
+        padding: 10px 0;
+
+        &__info {
+            flex-direction: column;
+        }
+
+        &__title {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        &__text {
+            text-align: center;
+        }
+
+        &__price {
+            text-align: center;
+        }
+
+
+
+        &__btn {
+            flex-direction: column;
+
+            .button {
+                width: 40%;
+                margin: 10px auto 0;
+
+
+            }
+        }
+    }
+
+    .teachers {
+        &__block {
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-top: 16px;
+            text-align: center;
+
+        }
+
+        &__subtitle {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        &__picture {
+            img {
+
+                margin: 0 auto;
+
+            }
+        }
+
+
+    }
+
+    .skills {
+        &__block {
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-top: 16px;
+            text-align: center;
+
+        }
+
+        &__subtitle {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        &__picture {
+            img {
+
+                margin: 0 auto;
+
+            }
+        }
+    }
+
+    .included {
+
+        padding: 15px 0;
+
+        &::after {
+
+            top: 442px;
+        }
+
+        &__block {
+            flex-direction: column;
+        }
+
+        &__num {
+            font-size: 40px;
+        }
+
+        &__title {
+            font-size: 20px;
+        }
+
+
+    }
+
+    .curriculum {
+
+        &__accordion {
+
+
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        .accordion-item:first-of-type .accordion-button {
+
+            font-size: 14px;
+
+        }
+
+        .curriculum .accordion-button:not(.collapsed) {
+
+            font-size: 14px;
+        }
+
+        .accordion-body {
+
+            font-size: 14px;
+        }
+
+
+
+
+    }
+
+    .course {
+
+        &::before {
+
+            display: none;
+        }
+
+        &__top {
+            &_title {
+                font-size: 16px;
+
+            }
+        }
+
+        &__info {
+            &_item {
+                font-size: 14px;
+            }
+        }
+
+
+
+
+    }
+
+    .shortcut {
+
+        &__info {
+            width: 280px;
+
+        }
+
+
+
+    }
+
+    .questions {
+        padding: 0px;
+
+
+
+
+
+    }
+
+    .start {
+        padding: 0px;
+
+        &__card {
+            &_small {
+                width: 85.666667%;
+                margin: 0 auto;
+            }
+
+            &_big {
+                width: 85.666667%;
+                margin: 0 auto;
+            }
+        }
+
+        .card {
+            width: 100%;
+
+
+        }
+
+        &__title {
+            font-size: 16px;
+
+
+        }
+
+        &_small {
+            width: 74.666667%;
+            margin: 0 auto;
+        }
+
+    }
+
+
+    .praise {
+
+        &::before {
+            top: 1376px;
+        }
+
+        &__title {
+            font-size: 19px;
+
+        }
+
+        &__box-first {
+            height: 220px;
+        }
+
+        &__box-second {
+            height: 200px;
+        }
+
+        &__box-third {
+            height: 180px;
+        }
+
+        &__box-fourth {
+            height: 220px;
+        }
+
+        &__box-fifth {
+            height: 200px;
+        }
+
+        &__box-sixth {
+            height: 180px;
+        }
+    }
+
+    .footer {
+        &__links {
+
+            column-gap: 6px;
+
+        }
+    }
+
+
+
+
+}
+
+@media (max-width: 426px) {
+    // min-width 377px
+
+    .teachers__picture img {
+
+        height: 320px;
+    }
+
+    .skills__picture img {
+        height: 320px;
+    }
+
+    .podcast {
+        &__photo {
+
+            width: 76%;
+            margin: 0 auto;
+        }
+    }
+
+
+    .start {
+        &__card {
+            &_small {
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            &_big {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+
+    }
+
+    .praise::before {
+        top: 1442px;
+    }
+
+    .praise__box-first {
+        height: 236px;
+    }
+
+    .praise__box-second {
+        height: 216px;
+    }
+
+    .praise__box-fourth {
+        height: 236px;
+    }
+
+    .praise__box-fifth {
+        height: 218px;
+    }
+
+
+}
+
+@media (max-width: 376px) {
+
+    // min-width 321px
+    .start {
+        &__card {
+            &_small {
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            &_big {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+
+    }
+
+    .praise::before {
+        top: 1552px;
+    }
+
+    .praise__box-first {
+        height: 256px;
+    }
+
+    .praise__box-second {
+        height: 236px;
+    }
+
+    .praise__box-third {
+        height: 196px;
+    }
+
+    .praise__box-fourth {
+        height: 256px;
+    }
+
+    .praise__box-fifth {
+        height: 236px;
+    }
+
+    .praise__box-sixth {
+        height: 196px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    // min-width 281px
+    .header {
+
+        &__template {
+            row-gap: 10px;
+        }
+
+        &__webflow {
+            font-size: 18px;
+            line-height: 18px;
+            text-align: center;
+
+        }
+
+        &__see a {
+            font-size: 20px;
+        }
+
+        &__nav .button {
+            margin: 0 auto;
+        }
+    }
+
+    .podcast {
+        &__btn {
+
+            .button {
+                width: 50%;
+
+            }
+        }
+
+        &__photo {
+            width: 90%;
+
+        }
+    }
+
+    .course {
+        &__top {
+            &_title {
+                font-size: 14px;
+
+            }
+        }
+
+
+
+
+
+    }
+
+    .start {
+
+        &__card {
+            &_small {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            &_big {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+
+        .card {
+
+            width: 250px;
+        }
+
+        &::before {
+            top: 32px;
+
+        }
+
+
+
+    }
+
+    .praise {
+
+        &::before {
+            top: 1712px;
+        }
+
+        &__title {
+            font-size: 16px;
+
+        }
+
+        &__box-first {
+            height: 258px;
+        }
+
+        &__box-second {
+            height: 240px;
+        }
+
+        &__box-third {
+            height: 200px;
+        }
+
+        &__box-fourth {
+            height: 256px;
+        }
+
+        &__box-fifth {
+            height: 240px;
+        }
+
+        &__box-sixth {
+            height: 200px;
+        }
+
+    }
+
+    .footer {
+
+        &__list {
+            flex-direction: column;
+        }
+
+        &__site,
+        &__admin {
+            display: none;
+        }
+    }
+
+
+}
+
+@media (max-width: 280px) {
+    // min-width 200px
+
+
+}
